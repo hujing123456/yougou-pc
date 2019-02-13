@@ -1,0 +1,430 @@
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+}
+.car-title{
+    width:990px;
+    height:50px;
+    margin:0 auto;
+    margin-top:15px;
+}
+.car-title>div:first-child{
+    width:355px;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+    float:left;
+    background:url(../img/logo.jpg) left top no-repeat;
+    margin-right:30px;
+}
+
+.car-title>ul{
+    float: left;
+    list-style: none;
+    width:600px;
+    height:20px;
+    margin-top:20px;
+}
+.car-title>ul>li{
+    float:left;
+    width:200px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    color:#666;
+    font-size:12px;
+    background:#e8e8e8;
+    position: relative;
+    overflow: hidden;
+}
+.car-title>ul>li>i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    position: absolute;
+    border:2px solid #fff;;
+    left:-12px;
+    top:0;
+    transform: rotate(45deg);
+    border-left:0;
+    border-bottom:0;
+}
+table{
+   width:990px;
+   margin:0 auto;
+   margin-top:20px;
+   padding-bottom: 10px;
+   border:1px solid #eee;
+   border-collapse:collapse;
+}
+table>thead{
+    width:988px;
+    height:42.4px;
+}
+table>thead>tr{
+    vertical-align: middle;
+    text-align: center;
+    font-size:12px;
+    color:#666;
+}
+table>thead>tr>td{
+    border-bottom:1px solid #eee;
+    height:42.4px;
+}
+table>thead>tr>td:nth-child(2){
+    width:367.2px;
+}
+table>thead>tr>td:nth-child(1){
+    width:59.2px;
+}
+table>thead>tr>td:nth-child(2)~td{
+    width:109px;
+}
+table>thead>tr>td>input,table>tbody:nth-child(3)>tr>td>input{
+    vertical-align: bottom;
+    width:15px;
+    height:15px;
+    cursor: pointer;
+}
+table>tbody:nth-child(2)>tr>td{
+    border-bottom:1px solid #eee;
+    height:131.8px;
+}
+table>tbody>tr{
+    vertical-align: middle;
+    font-size:12px;
+    color:#666;
+}
+table>tbody>tr>td:nth-child(1){
+    width:108px;
+    padding-left:8px;
+    position: relative;
+}
+table>tbody>tr>td:nth-child(2){
+    padding-left:20px;
+    padding-right:52px;
+}
+table>tbody>tr>td:nth-child(3){
+    padding-left:25px;
+}
+table>tbody>tr>td:nth-child(3)~td{
+   text-align: center;
+}
+
+table>tbody>tr>td>div>span{
+    position: relative;
+    display: block;
+    width:46px;
+    height:15px;
+    text-align: center;
+    line-height: 15px;
+    left:50%;
+    margin-left:-23px;
+    background:#333;
+    color:#fff;
+}
+table>tbody>tr>td:nth-child(4)>div{
+    margin-top:8px;
+}
+table>tbody>tr>td i{
+    position: absolute;
+    border:3px solid #333;
+    left:50%;
+    top:-3px;
+    margin-left:-3px;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+table>tbody>tr>td:nth-child(5)>div{
+    width:110px;
+    height:47px;
+    text-align: center;
+    font-size:0;
+    padding-top:10px;
+}
+table>tbody>tr>td>div>button{
+    width:24px;
+    height:24px;
+    border:1px solid #ccc;
+    background: #fff;
+}
+table>tbody>tr>td>div>button:nth-child(2){
+    width:28px;
+    height:24px;
+    border-right:0;
+    border-left:0;
+}
+table>tbody>tr>td:nth-child(6)>div:first-child{
+    font-size:14px;
+    font-weight: bold;
+    color:#333;
+}
+table>tbody>tr>td:nth-child(7)>div>a{
+    text-decoration: none;
+    color:#666;
+    display: block;
+    margin-top:10px;
+}
+table>tbody:nth-child(2)>tr>td:nth-child(1)>a{
+    display: inline-block;
+    width:72px;
+    height:72px;
+    border:1px solid #e6e6e6;
+    padding:5px;
+    position: absolute;
+    top:27px;
+    left:32px;
+}
+table>tbody>tr>td:nth-child(1)>a>img{
+    width:60px;
+    height:60px;
+}
+table>tbody:nth-child(2)>tr>td:nth-child(1)>input{
+    display: inline-block;
+   width:15px;
+   height:15px;
+   cursor: pointer;
+   position: absolute;
+   top:55px;
+   left:9px;
+}
+table>tbody:nth-child(3)>tr{
+    width:988px;
+    height:60px;
+}
+table>tbody:nth-child(3)>tr>td{
+    font-size:12px;
+    color:#666;
+    padding-left:10px;
+}
+table>tbody:nth-child(3)>tr>td>a{
+    text-decoration: none;
+    color:#666;
+}
+table>tbody:nth-child(3)>tr>td>a:last-child{
+    margin-left:50px;
+}
+table>tfoot{
+    width:990px;
+    height: 54px;
+    
+}
+table>tfoot>tr{
+    width:990px;
+    height: 54px;
+    background:#eee;
+ }
+ table>tfoot>tr>td>a{
+     width:72px;
+     height:21px;
+     display:inline-block;
+     text-decoration: none;
+     color:#fff;
+     background:#333;
+     font-size:12px;
+     text-align: center;
+     line-height: 21px;
+     margin-left:20px;
+ }
+ table>tfoot>tr>td:nth-child(2),table>tfoot>tr>td:nth-child(3){
+     text-align: right;
+ }
+ table>tfoot>tr>td>span:first-child{
+     font-size:12px;
+     color:#666;
+     font-weight: bold;
+ }
+ table>tfoot>tr>td>span:last-child{
+     font-size: 20px;
+     color:#666;
+     font-weight: bold;
+ }
+ table>tfoot>tr>td>button{
+    width:129px;
+    height:54px;
+    background:#333;
+    color:#fff;
+    font-size:14px;
+    border:1px solid #333;
+ }
+ .car-spec{
+     width:990px;
+     margin:0 auto;
+     text-align: right;
+     font-size:12px;
+     color:#666;
+     margin-top:15px;
+ }
+ .car-spec>p{
+     margin-top:5px;
+ }
+ .car-spec>p>i{
+     display: inline-block;
+     background:url(../img/shopcart-sprite-v4.png) no-repeat;
+    width:16px;
+    height:16px;
+    vertical-align: middle;
+    margin-left:10px;
+  }
+ .car-spec>p>i:nth-child(2){
+     background-position: 0 -18px;
+ }
+ .car-spec>p>i:nth-child(3){
+    background-position: 0 -38px;
+}
+.recommend{
+    width:990px;
+    height:681px;
+    margin:0 auto;
+    color:#666;
+    margin-top:30px;
+}
+.body-page{
+    width:990px;
+    height:647px;
+    border:1px solid #e6e6e6;
+    margin-top:10px;
+}
+.body-page>p{
+    width:988px;
+    height:25px;
+    font-size:12px;
+    color:#666;
+    text-align: right;
+    line-height: 25px;
+    padding:0px 10px;
+}
+.body-detail{
+    width:988px;
+    height:600px;
+    position: relative;
+}
+.body-detail>a{
+    width:12px;
+    height:21px;
+    margin-top:315px;
+}
+.body-detail>div{
+    float:left;
+    width:950px;
+    height:600px;
+}
+.body-detail>div>ul{
+    list-style: none;
+    height:600px;
+}
+.body-detail>div>ul>li{
+    float:left;
+    width:190px;
+    padding:10px 0px;
+}
+.body-detail>div>ul>li>div{
+    width:160px;
+    margin:0 auto;
+}
+.details-col>div>a{
+    display: block;
+    width:160px;
+    height:160px;
+}
+.details-col>div>a>img{
+    width:160px;
+    height:160px;
+}
+.details-col>div>div{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.details-col>div>div>a{
+    text-decoration: none;
+    color:#666;
+    font-size:12px;
+}
+.details-col>div>p{
+    text-align: center;
+    font-size:12px;
+    color:#aaa;
+    margin-top:5px;
+}
+.details-col>div>p>span{
+    font-size:15px;
+    color:#333;
+    font-weight: bold;
+}
+.details-col>div>h4{
+    text-align: center;
+    margin-top:20px;
+}
+.details-col>div>h4>button{
+    width:102px;
+    height:30px;
+    border:1px solid #d8d8d8;
+    color:#333;
+    font-size:12px;
+    background:#fefdfd;
+}
+
+.body-detail>a:first-child{
+    float:left;
+    background:url(../img/uc_sf.png) -92px -39px no-repeat;
+    margin-left:5px;
+}
+.body-detail>a:last-child{
+    float:right;
+    background:url(../img/uc_sf.png) -106px -39px no-repeat;
+    margin-right:5px;
+}
+footer>div{
+    width:990px;
+    text-align: center;
+    font-size:12px;
+    color:#666;
+    margin:30px auto;
+}
+/*********** 未登录切换页面 ******/
+.unlogin{
+    width:990px;
+    margin:0 auto;
+    padding:30px;
+    border:1px solid #eee;
+    margin-top:20px;
+    display:none;
+}
+.unlogin>div{
+    width:400px;
+    margin:0 auto;
+    color:#666;
+    font-size:14px;
+}
+.unlogin>div>p:nth-child(2){
+    margin-top:20px;
+}
+.unlogin>div>a:nth-child(3){
+    display: block;
+    text-decoration: none;
+    width:92px;
+    height:28px;
+    color:#fff;
+    font-size:14px;
+    background:#333;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 28px;
+    margin-top:15px;
+}
+.unlogin>div>p:nth-child(4){
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.unlogin>div>a:nth-child(5),.unlogin>div>a:nth-child(6){
+    text-decoration: none;
+    font-size:12px;
+    color:#666;
+    margin-right:10px;
+}

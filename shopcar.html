@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shopcar.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/shopcar.js"></script>
+    <script src="js/login_header.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="car-container">
+            <div class="car-title">
+                <div>
+                    <a href="index.html"><img src="img/logo-yg.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>我的购物袋</li>
+                    <li><i></i>提交订单中心</li>
+                    <li><i></i>成功提交订单</li>
+                </ul>
+            </div> 
+            <table class="car-list">
+                <thead>
+                    <tr>
+                        <td><input type="checkbox" name="list[]"><span>全选</span></td>
+                        <td>商品名称</td>
+                        <td>颜色尺码</td>
+                        <td>单价</td>
+                        <td>数量</td>
+                        <td>小计(元)</td>
+                        <td>操作</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>
+                            <input type="checkbox" name="list[]">
+                            <a href=""><img src="http://127.0.0.1:3000/img/details/100980703_01_t.jpg" alt=""></a>
+                        </td>
+                        <td>Belle/百丽婚鞋2019年春新商场同款牛皮革男商务正装皮鞋5XZ01AM9</td>
+                        <td>
+                            <P>颜色：黑色</P>
+                            <P>尺码：39</P>
+                        </td>
+                        <td>
+                            <span>868</span>
+                            <div><span><i></i>限时抢</span></div>
+                        </td>
+                        <td>
+                            <div>
+                                <button>-</button>
+                                <button>10</button>
+                                <button>+</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div>868</div>
+                            
+                        </td>
+                        <td>
+                            <div>
+                                <a href="">移入收藏夹</a>
+                                <a href="">删除</a>
+                            </div>
+                        </td>
+                    </tr> -->
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>
+                          <input type="checkbox" name="list[]"><span>全选</span>
+                        </td>
+                        <td colspan="6">
+                            <a href="">移入收藏夹</a>
+                            <a href="">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            <a href="">继续购物</a>
+                            <a href="">清空购物袋</a>
+                        </td>
+                        <td colspan="3">
+                            <span>总计(不含运费)：</span>
+                            <span>￥1190</span>
+                        </td>
+                        <td colspan="2">
+                            <button>去结算</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="unlogin">
+                <div>
+                    <img src="img/shopping-car.png" alt="">
+                    <p>您的购物袋中暂无商品，赶快选择心爱的商品吧！</p>
+                    <a href="index.html">回到首页</a>
+                    <p>您可以查看：</p>
+                    <a href="">我的收藏夹</a><a href="">我已购买的商品</a>
+                </div>
+            </div>
+            <div class="car-spec">
+                <p>
+                    购物保障：
+                    <i></i>100%正品
+                    <i></i>10天退换货
+                    <i></i>10天补差价
+                </p>
+                <p>优惠券/礼品卡在下一步使用</p>
+                <p>帮助我们改进购物流程</p>
+            </div>
+            <div class="recommend">
+                <h3>购买了您购物袋中商品的顾客还买了</h3>
+                <div class="body-page">
+                    <p>第1页，共 2 页</p>
+                    <div class="body-detail">
+                        <a href=""></a>
+                        <div>
+                            <ul>
+                                <li>
+                                    <div class="details-col">
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="details-col">
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="details-col">
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="details-col">
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="details-col">
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                        <div>
+                                            <a href=""><img src="http://127.0.0.1:3000/img/list/101109372_01_mb.jpg" alt=""></a>
+                                            <div><a href="">Belle/百丽粗跟单鞋2019春季商场同款新黑色牛皮革女休闲鞋T5G1DAM9</a></div> 
+                                            <p>
+                                                <span>￥428</span>
+                                                <del>￥1238</del>
+                                            </p>
+                                            <h4><button>加入购物袋</button></h4> 
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>Copyright © 2011-2014 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证：粤 B2-20090203</div>
+    </footer>
+</body>
+</html>

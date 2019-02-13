@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    outline:none;
+}
+div.login-top{
+    width:100%;
+    height:69px;
+    padding:13px 0px;
+}
+div.login-top>div{
+    width:990px;
+    height:42px;
+    margin:0 auto;
+}
+div.login-top>div>a:first-child{
+    width:182px;
+    height:42px;
+    padding:5px 30px 5px 0px;
+    border-right:1px solid #e6e6e6;
+    margin-right:30px;
+    float:left;
+}
+div.login-top>div>div>img{
+   width:151px;
+   height:32px;
+}
+div.login-top>div>a{
+    float:left;
+    width:90px;
+    height:40px;
+    color:#333;
+    font-size:18px;
+    text-decoration: none;
+    line-height: 40px;
+}
+.login-center{
+    width:100%;
+    height:553px;
+    position: relative;
+}
+.login-center>a{
+    width:100%;
+    height:553px;
+    position:absolute;
+    background:url("../img/login_backimg.jpg") no-repeat center center;
+}
+.input{
+    width:378px;
+    height:530px;
+    position:absolute;
+    z-index:1;
+    background:#fff;
+    top:50%;
+    margin-top:-265px;
+    left:880px;
+    box-shadow: 0 0 5px #fff;
+    border-radius:5px;
+}
+.input-top{
+    width:348px;
+    height:41px;
+    margin:24px 15px 0px 15px;
+}
+.input-top>a{
+    float: left;
+    width:174px;
+    height:40px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Microsoft YaHei';
+    cursor: pointer;
+    background:#f3f3f3;
+    color:#333;
+}
+.input-top .login-active{
+    background:#000;
+    color:#fff;
+}
+.input-body{
+    width:348px;
+    height:427px;
+    padding:30px 0px 0px 10px;
+    margin:0 15px;
+   position: absolute;
+   background:#fff;
+}
+div.inputBase{
+    width:338px;
+    height:66px;
+    padding-left:8px;
+}
+div.upwd,div.upwd-iffirm{
+    width:313px;
+    height:38px;
+    border:1px solid #e3e2e2;
+    float:left;
+}
+div.phone-number{
+    width:313px;
+    height:38px;
+    border:1px solid #e3e2e2;
+    position: relative;
+}
+div.phone-number>div>div:first-child,.phone-restcode>div>div,div.upwd>div,div.upwd-iffirm>div{
+    width:60px;
+    height:38px;
+    margin-left:10px;
+    float:left;
+    font-size:12px;
+    line-height: 38px;
+}
+.dropdown{
+    background:url("../img/icon_login.png") no-repeat -167px 0px;
+    width:7px;
+    height:5px;
+    display: inline-block;
+    margin-left:5px;
+    cursor: pointer;
+}
+.regchose{
+    width:72px;
+    height:78px;
+    padding-left:10px;
+    font-size:12px;
+    border:1px dotted #e3e2e2;
+    position: absolute;
+    z-index:10;
+    line-height:37px;
+    left:-1px;
+    top:-1px;
+    background:#fff;
+    cursor: pointer;
+}
+.regchosehide{display:none;}
+div.phone-number>input,div.upwd>input,div.upwd-iffirm>input{
+    width:235px;
+    height:36px;
+    border:0;
+   font-size:12px;
+   padding-left:5px;
+}
+div.reg-email{
+    width:60px;
+    height:38px;
+    margin-left:10px;
+    float:left;
+    font-size:12px;
+    line-height: 38px;
+}
+.phone-rest,.restcode-rest,.msg-rest,.upwd-rest,.iffirm-rest{
+    width:330px;
+    height:28px;
+    float:left;
+    display: none;
+}
+.phone-rest>div,.restcode-rest>div,.msg-rest>div,.upwd-rest>div,.iffirm-rest>div{
+    width:330px;
+    height:17.6px;  
+    margin-top:4px;
+    padding-left:25px;
+    color:#333;
+    font-size:12px;
+    line-height:17.6px;
+    background: url('../img/icon_login.png') no-repeat -180px -95px;
+}
+div.phone-restcode{
+    width:330px;
+    height:40px;
+   float:left;
+}
+div.phone-restcode input{
+    width:128px;
+    height:36px;
+    border:0;
+   font-size:12px;
+   padding-left:5px;
+}
+.phone-restcode>div{
+    width:200px;
+    height:38px;
+    border:1px solid #e3e2e2;
+    float: left;
+}
+.phone-restcode>div:last-child{
+    float: left;
+    width:110px;
+    height:40px;
+    border:0;
+    margin-left:3px;
+}
+.msg-restcode{
+    width:330px;
+    height:38px;
+    float:left
+}
+.msg-restcode>div{
+    width:235px;
+    height:38px;
+    border:1px solid #e3e2e2;
+    float:left;
+}
+.msg-restcode>div>p{
+    width:60px;
+    height:38px;
+    float: left;
+    font-size:12px;
+    line-height: 36px;
+    margin-left:10px;
+}
+.msg-restcode>div>input{
+    width:155px;
+    height:36px;
+    border:transparent;
+    font-size:12px;
+    padding-left:8px;
+    float: left;
+}
+.msg-restcode>button{
+    width:73px;
+    height:38px;
+    font-size:12px;
+    color:#fff;
+    text-align: center;
+    line-height: 38px;
+    background: #323232;
+    border:0;
+    float:right;
+    margin-right:17px;
+}
+div.ischeck{
+    width:338px;
+    height:20px;
+    text-align: center;
+    color:#666;
+    font-size: 12px;
+}
+div.ischeck>span>a{
+    text-decoration: none;
+    color:#666;
+    margin-left:3px;
+}
+.body-phone>div:last-child>button{
+    display: block;
+    width:312px;
+    height:40px;
+    background:#000;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+    border:0;
+    font-size:16px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left:10px;
+    margin-top:5px;
+}
+footer{
+    width:100%;
+    height:20px;
+    text-align: center;
+    font-size:13px;
+    color:#666;
+    line-height: 20px;
+    margin-top:20px;
+}
+footer a{
+    text-decoration: none;
+    color:#aaa;
+}
+footer>div{display: inline-block;margin-left:20px;}
+footer>div:first-child{margin-right:20px;}
